@@ -1,6 +1,6 @@
 // vim: ft=javascript:
 
-ARG_WITH("ustring", "whether to enable ustring support, path to ICU", "yes");
+ARG_WITH("ustring", "whether to enable ustring support, path to ICU", "no");
 
 if (PHP_USTRING != "no") {
 	if (CHECK_LIB("icuuc.lib", "ustring", PHP_USTRING) &&
